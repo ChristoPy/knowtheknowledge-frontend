@@ -1,6 +1,6 @@
-# knowledge
+# know the knowledge
 
-> The knowledge's interface
+> The know the knowledge's interface
 
 ## Build Setup
 
