@@ -79,7 +79,8 @@
 						}
 						else {
 
-							console.log (Response)
+							window.sessionStorage.u = Response.user;
+							window.sessionStorage.t = Response.token;
 						}
 				});
 			},
