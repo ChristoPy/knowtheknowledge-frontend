@@ -15,7 +15,7 @@
 								</span>
 							</div>
 
-							<input type="text" class="form-control" placeholder="First Name...">
+							<input type="text" class="form-control" placeholder="First Name..." v-model="Name" required="">
 						</div>
 					</div>
 
@@ -27,7 +27,7 @@
 								</span>
 							</div>
 							
-							<input type="text" class="form-control" placeholder="Email...">
+							<input type="email" class="form-control" placeholder="Email..." v-model="Email" required="">
 						</div>
 					</div>
 
@@ -39,12 +39,12 @@
 								</span>
 							</div>
 							
-							<input type="password" placeholder="Password..." class="form-control">
+							<input type="password" placeholder="Password..." class="form-control" v-model="Password">
 						</div>
 					</div>
 
 					<div class="text-center">
-						<a href="#" class="btn btn-primary btn-round">Get Started</a>
+						<a href="#" class="btn btn-primary btn-round" @click="TryRegister (Name, Email, Password)">Get Started</a>
 					</div>
 				</form>
 
@@ -60,7 +60,30 @@
 
 <script>
 	export default {
-		name: "SignUp"
+		name: "SignUp",
+		data () {
+			return {
+				Name: "",
+				Email: "",
+				Password: ""
+			}
+		},
+		methods: {
+
+			TryRegister (Name, Email, Password) {
+
+				$.post ("https://knowapi-knowapi.wedeploy.io/knowapi/v1/register", 
+					{username: Name, email: Email, password: Password}, function (Response) {
+
+						if (Response["msg_error"]) {
+						}
+						else {
+							console.log (Response);
+						}
+
+				});
+			}
+		}
 	}
 </script>
 
