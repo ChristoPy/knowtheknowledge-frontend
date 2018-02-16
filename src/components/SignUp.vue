@@ -92,6 +92,8 @@
 
 							window.sessionStorage.u = Response.user;
 							window.sessionStorage.t = Response.token;
+
+							ME.$router.push ("/");
 						}
 				});
 			},

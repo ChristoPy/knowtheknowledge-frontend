@@ -67,6 +67,8 @@
 
 				const ME = this;
 
+				let Logged = false;
+
 				$.post ("https://knowapi-knowapi.wedeploy.io/knowapi/v1/login", 
 					{email: Email, password: Password})
 					.always (function (Response) {
@@ -81,6 +83,8 @@
 
 							window.sessionStorage.u = Response.user;
 							window.sessionStorage.t = Response.token;
+
+							ME.$router.push ("/");
 						}
 				});
 			},
