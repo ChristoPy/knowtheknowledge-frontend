@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="510"
+   height="201"
+   viewBox="0 0 134.9375 53.18125"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Knowledge.svg"
+   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="200.74998"
+     inkscape:cy="234.53231"
+     inkscape:document-units="px"
+     inkscape:current-layer="g840"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-243.81876)">
+    <g
+       id="g840"
+       transform="translate(1.2397768e-8,14.552087)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g869"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <text
+           id="text821"
+           y="276.84613"
+           x="-1.3357383"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.81978798px;line-height:1.25;font-family:Amarillo;-inkscape-font-specification:Amarillo;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.67049468"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Baloo Tamma';-inkscape-font-specification:'Baloo Tamma';stroke-width:0.67049468"
+             y="276.84613"
+             x="-1.3357383"
+             id="tspan819"
+             sodipodi:role="line">Knowledge</tspan></text>
+        <g
+           id="g832"
+           transform="translate(-14.957519,34.183602)">
+          <rect
+             ry="4.7089453"
+             y="196.17841"
+             x="70.867943"
+             height="23.116652"
+             width="23.116652"
+             id="rect827"
+             style="opacity:1;fill:#009688;fill-opacity:1;stroke:none;stroke-width:0.69584763;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+          <text
+             id="text825"
+             y="215.87654"
+             x="73.575737"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.81978798px;line-height:1.25;font-family:Amarillo;-inkscape-font-specification:Amarillo;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.67049468"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Baloo Tamma';-inkscape-font-specification:'Baloo Tamma';stroke-width:0.67049468"
+               y="215.87654"
+               x="73.575737"
+               id="tspan823"
+               sodipodi:role="line">K</tspan></text>
+        </g>
+        <text
+           id="text821-3"
+           y="258.99725"
+           x="16.133768"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.81978798px;line-height:1.25;font-family:Amarillo;-inkscape-font-specification:Amarillo;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.67049474"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'Baloo Tamma';-inkscape-font-specification:'Baloo Tamma';stroke-width:0.67049474"
+             y="258.99725"
+             x="16.133768"
+             id="tspan819-6"
+             sodipodi:role="line">Know the</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
