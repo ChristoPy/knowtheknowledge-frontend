@@ -74,6 +74,8 @@
 
 			TryRegister (Name, Email, Password) {
 
+				this.ErrorName = undefined;
+
 				const ME = this;
 
 				$.post ("https://knowapi-knowapi.wedeploy.io/knowapi/v1/register", 

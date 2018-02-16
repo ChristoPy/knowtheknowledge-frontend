@@ -39,6 +39,10 @@
 						<a href="/signup">Create Account</a>
 					</div>
 				</div>
+
+				<div class="alert alert-danger text-center" role="alert" v-if="ErrorName">
+					{{ErrorName}}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -51,17 +55,51 @@
 
 			return {
 				Email: "",
-				Password: ""
+				Password: "",
+				ErrorName: undefined
 			}
 		},
 		methods: {
 
 			TryLogin: function (Email, Password) {
 
-				$.post ("https://knowapi-knowapi.wedeploy.io/knowapi/v1/login", 
-					{email: Email, password: Password}, function (Response) {
+				this.ErrorName = undefined;
 
-					console.log (Response);
+				const ME = this;
+
+				$.post ("https://knowapi-knowapi.wedeploy.io/knowapi/v1/login", 
+					{email: Email, password: Password})
+					.always (function (Response) {
+
+						const JSONResponse = Response.responseJSON;
+
+						if (JSONResponse && JSONResponse["msg_err"]) {
+
+							ME.CheckErrors (JSONResponse["msg_err"]);
+						}
+						else {
+
+							console.log (Response)
+						}
+				});
+			},
+
+			CheckErrors (ErrorMessage) {
+
+				const Errors = {
+					"INEXISTENT-USER": "That user does not exists",
+					"INVALID-PASSWORD": "Oops, password is not valid!"
+				};
+
+				const ErrorsNames = Object.keys (Errors);
+				const ErrorsValues = Object.values (Errors);
+
+				ErrorsValues.map (Value => {
+
+					if (ErrorMessage === Value) {
+
+						this.ErrorName = Value;
+					}
 				});
 			}
 		}
