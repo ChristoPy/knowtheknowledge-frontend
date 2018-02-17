@@ -74,8 +74,7 @@
 
 					if (ErrorMessage === Value) {
 
-						window.sessionStorage.t = undefined;
-						window.sessionStorage.k = undefined;
+						window.sessionStorage.clear ();
 
 						this.$router.push ("/login");
 					}

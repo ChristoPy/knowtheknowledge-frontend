@@ -9,7 +9,7 @@ export default {
 
 		if (this.IsLoggedIn ()) {
 
-			Next ("/");
+			Next ("/feed");
 		}
 		else {
 

@@ -90,8 +90,7 @@
 						}
 						else {
 
-							window.sessionStorage.u = Response.user;
-							window.sessionStorage.t = Response.token;
+							window.sessionStorage.clear ();
 
 							ME.$router.push ("/feed");
 						}
