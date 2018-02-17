@@ -1,10 +1,27 @@
 export default {
 
-	CheckToken (To, From, Next, Fallback) {
+	IsLoggedIn () {
 
-		if (window.sessionStorage.u && window.sessionStorage.t) {
+		return window.sessionStorage.u && window.sessionStorage.t;
+	},
+
+	GoToFeedIfLoggedIn (To, From, Next, Fallback) {
+
+		if (this.IsLoggedIn ()) {
 
 			Next ("/");
+		}
+		else {
+
+			Next ();
+		}
+	},
+
+	GoToLogIn (To, From, Next) {
+
+		if (this.IsLoggedIn ()) {
+
+			Next ("/login");
 		}
 		else {
 
