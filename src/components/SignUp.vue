@@ -90,7 +90,8 @@
 						}
 						else {
 
-							window.sessionStorage.clear ();
+							localStorage.setItem ("u", Response.user);
+							localStorage.setItem ("t", Response.token);
 
 							ME.$router.push ("/feed");
 						}

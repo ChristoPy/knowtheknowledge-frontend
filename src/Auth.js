@@ -2,7 +2,7 @@ export default {
 
 	IsLoggedIn () {
 
-		return window.sessionStorage.u && window.sessionStorage.t;
+		return localStorage.getItem ("u") && localStorage.getItem ("t");
 	},
 
 	GoToFeedIfLoggedIn (To, From, Next, Fallback) {

@@ -81,8 +81,8 @@
 						}
 						else {
 
-							window.sessionStorage.u = Response.user;
-							window.sessionStorage.t = Response.token;
+							localStorage.setItem ("u", Response.user);
+							localStorage.setItem ("t", Response.token);
 
 							ME.$router.push ("/feed");
 						}
